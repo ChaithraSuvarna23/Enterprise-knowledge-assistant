@@ -1,0 +1,53 @@
+CHAITHRA J SUVARNA 
+Mangalore, Karnataka, India | (+91) 7019852744 | chaithrajsuvarna@gmail.com 
+ 
+OBJECTIVE 
+Motivated and detail -oriented Computer Science Engineering student with a strong foundation in 
+programming, web development, and data analysis. Passionate about building scalable applications 
+and solving real -world problems through technology. Seeking oppo rtunities to apply my skills in 
+software development while continuously learning and growing in a dynamic environment. 
+ 
+INTERNSHIPS 
+NextWebi IT Solutions Pvt. Ltd. | Software Development Engineer-Intern        (June–July 2025) 
+▪ Built a food ordering web app ( Bagara Biryani Café ) using React.js, Material UI, Node.js, 
+and MongoDB Atlas. 
+▪ Implemented features like dynamic filters, persistent cart (via cookies and backend), order 
+checkout, and user session tracking. 
+▪ Developed secure REST APIs and integrated frontend with backend using Axios and 
+Express.js.                                    SOURCE 
+CERTIFICATES 
+• Foundations of data analysis – Coursera 
+• Google cloud computing foundations and generative ai  
+ 
+ 
+PROJECTS 
+● Resume Analyser                 SOURCE 
+▪ Developed a dynamic website using React for the frontend and Flask APIs for the 
+backend to analyze user resumes. 
+▪ Integrated a resume analyzer feature that extracts key information, evaluates skill 
+relevance, and provides personalized improvement suggestions. 
+● Club Net – A college club website               SOURCE 
+▪ Designed and developed a full -stack website using Spring Boot (backend) and Next.js 
+along with Tailwind CSS (frontend) to manage and showcase all student clubs at 
+NMAMIT. 
+▪ Implemented features for clubs to post events and blogs, and for students to follow clubs, 
+using MongoDB for dynamic data handling. 
+● Blood Bank Management System                           SOURCE 
+▪ Developed a web application using React.js for the frontend and Node.js with Express.js 
+for the backend to support blood donation and search functionality. 
+▪ Designed and implemented a relational database schema in MySQL  for storing donor 
+and recipient data. 
+● Healthcare Chatbot                SOURCE 
+▪ Developed an AI -based healthcare chatbot using Python, Streamlit, and NLP libraries  
+(NLTK, Transformers) for real-time medical query handling. 
+▪ Integrated TensorFlow and tf.keras models to process symptoms and generate context - 
+aware, intelligent responses. 
+ EDUCATION 
+• N.M.A.M Institute Of Technology , Nitte, Karnataka-Bachelor Of Technology in 
+Computer Science Engineering(2026) CGPA: 9.51 
+• Sharada Pre University College, Mangalore, Karnataka-Pre University(STATE) 12th: 94% 
+• BGS School, Kavoor , Mangalore, Karnataka-(CBSE) 10th: 89.6% 
+ 
+ SKILLS 
+● Languages: Python, C,  Java(basics), HTML, CSS, Javascript 
+● Framework/Tools: ReactJS, MySql, NodeJS(basics), Git, VS Code

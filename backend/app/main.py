@@ -5,7 +5,7 @@ import uuid
 
 from app.config import UPLOAD_DIR, EXTRACTED_DIR
 from app.utils import extract_text_from_pdf, extract_text_from_txt,chunk_text
-from app.vector_store import store_chunks
+from app.vector_store import store_chunks, search_chunks
 
 app = FastAPI(
     title="Enterprise Knowledge Assistant",
@@ -65,3 +65,26 @@ def upload_document(file: UploadFile = File(...)):
     }
 
 
+@app.post("/query")
+def query_knowledge_base(question: str):
+    """
+    Query enterprise documents using semantic search.
+    """
+    results = search_chunks(question)
+
+    documents = results.get("documents", [[]])[0]
+    metadatas = results.get("metadatas", [[]])[0]
+
+    response = []
+
+    for doc, meta in zip(documents, metadatas):
+        response.append({
+            "content": doc,
+            "source": meta.get("source"),
+            "chunk_id": meta.get("chunk_id")
+        })
+
+    return {
+        "question": question,
+        "results": response
+    }
