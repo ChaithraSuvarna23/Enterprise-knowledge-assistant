@@ -1,0 +1,873 @@
+INFOSYS APTITUDE -TEST   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+  
+ 
+ 
+2 
+     WRITTEN TEST- SYLLABUS 
+SECTION-A: MATHEMATICAL AND CRITICAL THINKING (10 QUESTIONS -35MINUTES) 
+Topics: 1) Ration and proportion 
+ 2) Time, Distance and Speed 
+ 3) Time and work 
+ 4) Permutations and combinations 
+ 5) Probability 
+ 6) Profit and loss 
+ 7) Percentages  
+ 8) Crypt Arithmetic  
+ 9) Mensuration 
+ 10) Cube and Cuboids 
+SECTION-B: ANALYTICAL THINKING (15 QUESTIONS-25 MINUTES) 
+Topics: 1) Syllogism 
+ 2) Data interpretation 
+ 3) Data sufficiency 
+ 4) Puzzle test 
+ 5) Non- Verbal Reasoning 
+ 6) Coding and Decoding 
+ 7) Letter series, Classification and Analogy 
+ 8) Number series, classification and Analogy 
+ 9) Direction Test 
+SECTION-C:  Verbal Ability (40QUESTIONS-25 MINUTES) 
+ 
+ 
+ 
+  
+  
+ 
+ 
+3 
+       INFOSYS APTITUDE TEST -I     
+ 
+ 
+SECTION-A: MATHEMATICAL AND CRITICAL THINKING (10 QUESTIONS -35MINUTES) 
+ 
+1. If WAIT + ALL = GIFTS;   Then what is the value of G+I+F+T? (If A =6 & S=5) 
+a) 11  b) 12  c) 15  d) 24 
+2. Abdul starts in a car from Ahmadabad towards Bangalore. After some time he realizes that h e will 
+cover only 75% of the distance in the scheduled time and he therefore doubles his speed immediately 
+and thus manages to reach Bangalore exactly on time. Find the time after which Abdul changed his 
+speed, given that he could have been late by 3 hours if he had not changed his speed: 
+a) 3 h  b) 4 h  c) 5 h  d) 6 h 
+3. A code word is to consist of two English alphabets followed by two distinct nu mbers between 1 and 9. 
+For example, CA23 is a code word. How many such code words are there? 
+a) 615800 b) 46800 c) 719500 d) 410800 
+4. If Rs. 58 is divided among 150 children such that each girl and each boy gets 25 p and 50 p respectively. 
+Then how many girls are there? 
+              a)52  b) 54  c) 68  d) 62 
+5. In an entrance exam of 200 objective questions, a student can score 1 point fo r every correct answer, 
+loss ¼ points for every wrong answer and loss 1/2 point for every unanswered question. If he attempts 
+only 160 questions and he scores 100 points then the number of questions an swered by him correctly 
+is: 
+a) 132   b) 126   c) 139   d) 128 
+6. In a bus stand, there are two services namely A and B. Every 10 minutes buses will leave from A and 
+this service works from 6.10 am to 2 pm. The service at B starts at 2.20 pm and for every 2 0 minutes 
+buses will leave from the bus stand. Find the probability of getting bus from  service B between 2.20 
+pm to 2.50 pm, if service A is late by 1 hour. 
+a) 1/2   b) 1/3   c) ¼   d) 1/5 
+Questions: 25       Time: 50 minutes  
+All Questions carry one Mark Each 
+  
+ 
+ 
+4 
+7.  There are two pipes in a tank. Pipe A is for filling the tank and pipe b is for emptyi ng the tank. If A can 
+fill the tank in 10 hours and b can empty the tank in 15 hours then find how man y hours will it take to 
+completely fill a half empty tank? 
+a)30 hours  b) 15 hours  c) 20 hours  d) 33.33 hours 
+8. A man buys two cycles for a total cost of Rs.900. By selling one for 4/5 of its cost and other for 5/4 of 
+its cost, he makes a profit of Rs.90 on the whole transaction. Find the cost price of lower priced cycle. 
+a)Rs. 360  b) Rs.250  c) Rs. 300  d) Rs. 420    
+9. Water tax is increased by  20% but its consumption is decreased by 20%. The increase o r decrease in 
+the expenditure is: 
+a)4% decrease  b) 4% decrease  c) 8% decrease  d)8% increase 
+10. A cube, painted yellow on all faces is cut into 27 small cubes of equal size. How m any small cubes are 
+painted on one face only? 
+a)1   b) 6   c) 8   d) 12 
+SECTION-B: ANALYTICAL THINKING (15 QUESTIONS-25 MINUTES) 
+Directions for questions (1 to 5 ): In each question a set of six statements is given followed by four answe r 
+choices. Each of the answer choices has a combination of three statements from the given set of si x 
+statements. You are required to identify the answer choice in which the statements are logically related. 
+1. A: All green is blue   B: All green is white  c: All green is black 
+D: All black is white  E: All blue is yellow  F: All blue is white 
+a)ABF   b) AEF   c) CDB  d) CBE 
+2. A: Pomfret is a fish  B: Pomfret is not a fish  C: Pomfret will not lay eggs 
+D: Some fish lay eggs  E: All fish lay eggs  F: Pomfret may lay eggs. 
+a)DFA   b) ADF   c) BDF  d) EBC 
+3. A: All copper is metal  B: All bronze is non-metal C: Some metal is silver 
+D: Some metal is not silver E: No copper is bronze  F: Some silver is not metal 
+a)ABF   b) ACB   c) ABE  d) CDA 
+4. A: Actors know English  B: He does not know English C: He is an actor 
+D: He is not an actor  E: He knows Hindi  F: He should know English 
+a)ADB   b) AEF   c) DEA  d) ACF 
+5. A: T may be A   B: A is T   C: T is G 
+D: Some G are A E: G may be A  F: No A is T 
+a)CDA  b) BCF   c) DEF  d) ACB 
+  
+ 
+ 
+5 
+Directions (6-10) Study the following information carefully and answer the given questions. 
+Eight people S, R, N, L, M, T, O and P are sitting in a circle facing the centre. All eight belong in to different 
+professions – reporter, doctor, teacher, accountant, shopkeeper, painter and supervisor. They are not 
+necessarily seated in the mentioned order. M is sitting third to the left of O. The doctor is to the right of M and 
+M is not a reporter. R is sitting fourth to the right of P. Neither R nor P i s an immediate neighbor of M. T is a 
+teacher and is sitting third to the right of the doctor. The shopkeeper is sitting second to  the left of the 
+teacher. The painter is sitting second to the left of M. S, the cricketer is sit ting between M and P. The 
+accountant is sitting second to the left of the cricketer. N is sitting third to the left of T. 
+6. Who is the Accountant? 
+a)R  b) O  c) L  d) P 
+7. Who is sitting exactly opposite to reporter? 
+a)S  b) P  c) N  d) L 
+8. Who is sitting immediate right of doctor? 
+a)M  b) R  c) O  d) T 
+9. Which of the following is correct? 
+a)N-Accountant  b) R- Reporter  c) N-Doctor  d) P-Doctor 
+10. Who is the fourth right of Doctor? 
+a)P  b)L  c)Cricketer  d) Painter 
+Directions ( 11 to 15):  Study the following table and answer the questions. 
+Number of Candidates Appeared and Qualified in a Competitive Examination from Di fferent 
+States Over the Years. 
+State 
+Year 
+1997 1998 1999 2000 2001 
+App. Qual. App. Qual. App. Qual. App. Qual. App. Qual. 
+M 5200 720 8500 980 7400 850 6800 775 9500 1125 
+N 7500 840 9200 1050 8450 920 9200 980 8800 1020 
+P 6400 780 8800 1020 7800 890 8750 1010 9750 1250 
+Q 8100 950 9500 1240 8700 980 9700 1200 8950 995 
+R 7800 870 7600 940 9800 1350 7600 945 7990 885 
+ 
+  
+ 
+ 
+6 
+ 
+1.  Total number of candidates qualified from all the states together in 1997 is approximately 
+what percentage of the total number of candidates qualified from all the states together 
+in 1998? 
+A. 72% B. 77% 
+C. 80% D. 83% 
+ 
+2.  What is the average candidates who appeared from State Q during the given years? 
+A. 8700 B. 8760 
+C. 8990 D. 8920 
+ 
+3.  In which of the given years the number of candidates appeared from State P has 
+maximum percentage of qualified candidates? 
+  A.1997                                                       C.1999 
+  B.1998                                                       D.2001 
+4.  What is the percentage of candidates qualified from State N for all the years together, 
+over the candidates appeared from State N during all the years together? 
+A. 12.36% B. 12.16% 
+C. 11.47% D. 11.15% 
+ 
+5.  The percentage of total number of qualified candidates to the total number of appeared  
+candidates among all the five states in 1999 is? 
+A. 11.49% B. 11.84% 
+C. 12.21% D. 12.57% 
+ 
+ 
+ 
+         
+   
+ 
+  
+ 
+ 
+7 
+ INFOSYS APTITUDE - II 
+Questions: 25       Time: 50 minutes  
+All Questions carry one Mark Each 
+ 
+SECTION-A: MATHEMATICAL AND CRITICAL THINKING (10 QUESTIONS -35MINUTES) 
+Directions ( 1 to 5):  Study the following information carefully and answer the given questions. 
+There are eight sportspersons from different cities attending a seminar in Hyderabad. All of them sat around a 
+circular table. Mr. Rajkumar from Kolhapur represented India in Table Tennis and is seat ed between 
+sportspersons from Cricket and Ahmadabad. The kabaddi player is seated third to the player of Table Tennis. 
+Ms. Kamala is a well- kŶowŶ ĐriĐket plaǇer aŶd seated opposite to Ms. KaŵilŶi, ĐaptaiŶ of IŶdia’s kaďaddi 
+(women) team. The players of chess and Hockey are seated opposite to each other. Mr.Pankaj has come all 
+the way to Hyderabad as he is interested to meet his friends, who are from Beach voll ey ball and hockey. Two 
+woŵeŶ are seated Ŷeǆt to eaĐh other. Mr. Prasad is a forŵer ĐaptaiŶ of IŶdia’s of BeaĐh VolleǇ Ball teaŵ aŶd 
+he is from Mahabalipuram. The sportspersons from Aurangabad and Kolhapur are seated next to the cricketer. 
+Ms.Shanti is seated second left of Mr.Arjun, who is from Srirangam. Sportspersons fro m Gulbarga, Jabalpur 
+and Ahmadabad are seated consecutively in the same order. The sportspersons from Jabalp ur is a woman, 
+who is interested Hockey. Mr.Kamalesh is seated second to the right of Cricketer. 
+The one who plays Handball is next to Ms.Shanti. The tennis player is third to the l eft of sportsperson from 
+Kochi. 
+ 
+1. Who among the following is the player from Aurangabad? 
+a)Ms.Shanti  b) Ms. kamilini  c) Ms. Kamala  d) Mr. Pankaj 
+2. Identify the mismatch between the sportspersons and the sport with which they are 
+             associated. 
+a)Mr. Prasad- beach volley ball  c) Mr. kamlesh – Cricket 
+b)Ms. Shanti- Hockey   d) Ms. Kamilini – kabaddi 
+3. Who are the neighbors of chess player? 
+a)Mr.Arjun and Ms.Shanti  b) Mr.Arjun and Mr.Pankaj c) Mr. kamalesh and M 
+ d) Mr.Rajkumar and Ms.kamlini  e) None of the above 
+4. The sportsperson participated from HǇderaďad is………….. 
+ a) Mr. Rajkumar b) Mr. Kamalesh c) Ms. Kamala   d) Mr. Prasad e) None 
+5. Who is seated opposite to the player from Srirangam? 
+ a) Beach Volley Ball player b) hand ball player c) Chess player  d) cricketer 
+ e) None of the above 
+ 
+6.  If HOW + MUCH  = POWER : then what is the value of P+O+W+E+R = ? 
+ a) 12  b) 14  c) 17  d) 20 
+  
+ 
+ 
+8 
+7.   A train travelling at 48 km/hr completely crosses another train having half i ts length and travelling in 
+opposite direction at 42 kmph, in 12 seconds. It also passes a railway platform  in 45 seconds. The 
+length of the platform is: 
+ a) 560 m  b) 400 m  c) 600 m  d) 450 m 
+8. A can solve 90% of the problem gives in a book and B solve 70%. What is the prob ability that at least 
+one of them will solve a problem selected at random from the book? 
+ a) 3/100  b) 97/100  c) 83/100  d) 17/100 
+9. How many odd numbers less than 1000 can be formed using the digits0, 2, 5, 7? (Repetition of digits 
+allowed) 
+ a) 52   b) 32   c) 22   d) 42  
+10.   Find the time between 5 and 6 o'clock when the two hands of clock are 6 minutes spaces apart.  
+a) 3 2/11 minutes past 5 o'clock   b) 6 6/11 minutes past 5 o'clock 
+c) 20 8/11 minutes past 5 o'clock  d) 4 2/11 minutes past 5 o'clock    
+ 
+SECTION-B: ANALYTICAL THINKING (15 QUESTIONS-25 MINUTES) 
+Directions(1 to 5)  In each of the following questions, select one alternative in which the third statement is 
+implied by the first two statements. 
+1. A) All elephants are wild, All lions are wild. So all lions are elephant 
+ B ) All mangoes are red, Some apples are mangoes. So, all apples are red 
+ C) All roads are boxes. All foxes are roads. So, all boxes are foxes 
+ D) All XYZ can run, All ABC are   XYZ. So, all ABC can run.  
+2. A) All dogs are mad, All sick persons are mad. So ,all sick persons are dogs 
+ B) All orange are black  ,All figs are oranges. So, all figs are black 
+ C) All windows are dogs, some doors are dogs. So, all windows are doors. 
+ D) No man ca n fly, No kite can fly. So, all men are kites 
+3. A) All beautiful things are sad, she is beautiful. She is sad. 
+ B) All nice things are flat. Tv s Are flat. Tv are nice things. 
+ C) Potatoes are stems. All stems are fruits. Potatoes are fruits. 
+1) Only A      2) A and B 3) Only C     4) A and C 
+4. A) All pinks are purple. All purple are violet. All violate are pinks 
+ B) No chord is scale. Some scales are minors. No chord is minor. 
+ C) Some pollution are dusts. Some dusts are harmful. Some pollution are harmful. 
+  
+ 
+ 
+9 
+ D) No calcium is protein. All vitamins are calcium. No vitamin is protein. 
+1) Only B   2) Only A and C   3) Only D 4) Only A and D  5) All A,B,C and D 
+5. A) All colours are walls. No wall is plain. No colour is plain 
+ B) All sonic are cosmic. Some cosmic are superfast. All sonic are superfast. 
+ C) Every amount is refundable .Some amounts are retainable. Some refundable is retainable 
+ D) No one is novice. Some novice is shrewd. Some shrewd is not one. 
+1) Only A and B    2) Only A,C and D 3) Only B and C 4) Only C and D  5) Only C 
+Directions The bar graph given below shows the data of the production of paper (in lakh tones) 
+by three different companies X, Y and Z over the years. 
+Production of Paper (in lakh tones) by Three Companies X, Y and Z over the Years. 
+ 
+6.  For which of the following years, the percentage rise/fall in production from the previou s 
+year is the maximum for Company Y? 
+A. 1997 B. 1998 
+C. 1999 D. 2000 
+ 
+ 
+7.  What is the ratio of the average production of Company X in the period 1998-2000 to the 
+average production of Company Y in the same period? 
+A. 1:1 B. 15:17 
+
+  
+ 
+ 
+10 
+C. 23:25 D. 27:29 
+ 
+ 
+ 
+8.  
+ 
+The average production for five years was maximum for which company? 
+A. X B. Y 
+C. Z D. X and Z both 
+ 
+9.  In which year was the percentage of production of Company Z to the production of 
+Company Y the maximum? 
+A. 1996 B. 1997 
+C. 1998 D. 1999 
+ 
+10.  What is the percentage increase in the production of Company Y from 1996 to 1999? 
+A. 30% B. 45% 
+C. 50% D. 60% 
+  
+ 
+ 
+Directions: (11- 15)  
+a. If the question can be answered with the help of statement (1) alone. 
+b. If the question can be answered with the help of statement (2) alone. 
+c. If the question can be answered with the help of both the statements, but not with help of either  
+statement itself. 
+d. If the question cannot be answered with the help of both the given statements. 
+e. If the question can be answered with the help of either 1 or 2. 
+ 
+11.  Which is the greatest among x,y and z? 
+ 1) X: Y: Z = 3:4:5 
+ 2) XYZ – Y2 is positive integer. 
+12. P and Q are integers. Is Q even? 
+ 1) 4P + 6Q is even 
+ 2) 4p + 7Q is even 
+13. What was the cost price of the suitcase purchased by Richard? 
+  
+ 
+ 
+11 
+ 1) Richard got 20% concession on the labeled price. 
+ 2) Richard sold the suitcase for Rs.2000 with 25% profit on the labeled price. 
+14. Average age of employees working in a department is 30 years. In the next year, ten workers 
+               will retire. What will be the average age in the next year? 
+ 1) Retirement age is 60 years. 
+ 2) There are 50 employees in the department. 
+15. What was the interest rate on a sum of money? 
+ 1) The sum fetched a total of Rs. 2522 as compound interest at the end of 3 years. 
+ 2) The difference between the simple and the compound interest at the end of 2 y ears at the 
+                    same rate was Rs.40. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+              
+  
+  
+ 
+ 
+12 
+INFOSYS APTITUDE TEST-III    
+Questions: 30       Time: 40 minutes  
+All Questions carry one Mark Each 
+Directions:  Out of the five figures 1,2,3,4 and 5 four are similar in a certain way and thus form a group. 
+However one figure is not like the other four. Choose the figure which is different from others. 
+ 
+ 
+ 
+ 
+
+  
+ 
+ 
+13 
+ 
+ Directions: read the following information and answer the questions based on them. 
+The seven basis symbols in a certain numerical system and their respective values are as follows: 
+I = 1, V = 5, X = 10, L = 50, C = 100, D = 500 and M = 1000 
+In general, the symbols in the numerical system are read from left to right, starting with symbols representing 
+the largest value; the same symbol cannot occur continuously more than three times, the value of the 
+numerical is the sum of the values of the symbols: 
+For example: XXVII = 10+10+5+1+1 = 27. An exception to the left to right read ing occurs when a symbol is 
+followed immediately by a symbol greater value; then, the smaller value is subtracted from the large. For 
+example: XLVI = 50-10+5+1 = 46. 
+ 
+6. The value of the numerical MDCCLXXXVII is: 
+ a) 1687   b) 1787    c) 1887   d) 1987 
+7. The value of the numerical MCMXCIX is: 
+ a) 1999   b) 1899    c) 1989   d) 1889 
+8. Which of the following can represent the numerical for 1995? 
+ 1. MCMLXXV  2. MCMXCV  3. MVD  4. MVM 
+ a) Only 1 and2  b) Only 3 and 4  c) Only 2 and 4  d) Only 4 
+9. What is the sum of the value the numerical MVD and MVM? 
+ a) 3420   b) 4490    c) 2490   d) 1490 
+10. Which of the following can represent the numerical for 2006? 
+ 1. MMVI  2.  MDDVI   3. MCDCDCCVI 
+ a) Only 1  b) Only 2  c) 1 and 2 only  d) All the above 
+ 
+Directions: Each of the following problem has a question followed by two statements which are marked A and 
+B. use the data given in A and B together or separately and mark, 
+a) If statement A alone is sufficient to answer the question. 
+b) If statement B alone is sufficient to answer the question. 
+c) If both the statements are together needed to answer the question but neither statement alone i s 
+sufficient. 
+d) If neither A nor B is sufficient to answer the question. 
+e) If either A alone or B alone is sufficient to answer the question. 
+ 
+11. Is Ram shorter than Ravi? 
+ A. Ram is not taller than Ravi. 
+ B. Ram and Ravi are not equal in height. 
+12. P, Q and R are three weights which are supposed to be equal. But one and only one of these is a false 
+weight. Which weight is that? 
+ A. P is lighter than R. 
+ B. Q is lighter than either P or R (not both) 
+13. Has old paper (waste paper) gone up in price? 
+  
+ 
+ 
+14 
+ A. Everything that the grocer sells has gone up in price. 
+ B. Old paper is something the grocer buys, not sells. 
+14. SSCHC is an outdoor game. Does DNAND like it? 
+ A. DNAND is a sportsman. 
+ B. There is no sportsman who does not like all outdoor games. 
+15. What is the breadth of the rectangle in cms? 
+ A. If the breadth alone is doubled the area increased by 160 sq.units. 
+ B. If the length alone is doubled, the perimeter increased by 40 units. 
+ 
+Directions: Study the following graph carefully and answer the question given below it. 
+Human Resource index of an Organization for the given years. 
+ 
+16.  What is the percentage increase of human resource index from 1993 to 1999? 
+ a) 250   b) 300   c) 275   d) None of these 
+17. The index in 1998 was what percent of that of 1996? 
+ a) 100   b) 150   c) 200   d) None of these 
+18. Which of the following statement is true? 
+ a) The index increased every year 
+ b) The index showed many ups and downs 
+ c) The index has made good progress over the years 
+50 
+70 60 
+100 
+200 200 205 
+0
+50
+100
+150
+200
+250
+1993 1994 1995 1996 1997 1998 1999
+  
+ 
+ 
+15 
+ d) Except for some spurts the index in general remained steady 
+19. In which year is the percentage increase the highest from its previous years? 
+ a) 1994  b) 1999  c) 1996  d) None of these 
+20. What is the approximate average for the given years? 
+ a) 100   b) 150   c) 140   d) 130 
+Directions: Read the following data and answer the questions 
+i) There are six neighbors- Mr. Sharma, Mr. Tendulkar, Mr.Dravid, Mr.Prasad, Mr.Johar, and 
+Mr.Aiyar- living in triple-story building with six flats. 
+ii) Those who have four or more children occupy the top floor. 
+iii) The lawyer has a kelvinator fridge while the CA has Godrej. 
+iv) The ground floor occupants have a cheerful disposition. 
+v) Mr.Tendulkar, a cricketer, has three children. 
+vi) Mr.Dravid, an unmarried man, occupies the middle floor. 
+vii) Mr.Johar and Mr.Aiyar have gloomy dispositions while the rest are cheerful. 
+viii) Mr. Prasad, a middle floor occupant, owns a Voltas fridge. 
+ix) One of the two neighbors having two children owns a Videocon fridge and is a journalist. 
+x) Two neighbors, of whom one is a teacher, do not own a fridge. 
+xi) The teacher does not stay on the top floor. 
+ 
+21.  Which fridge does Mr.Dravid own? 
+ a) Godrej  b) kelvinator  c) Godrej or kelvinator d) No fridge 
+22. What is Mr. Prasad’s ProfessioŶ? 
+ a) Teacher  b) Lawyer  c) Journalist    d) ĐaŶ’t saǇ 
+23. Who among the following occupies the top floor? 
+ a) Mr. Sharma  b) Mr.Johar  c) Mr.Dravid   d) Mr. Prasad 
+24. How many children does Mr. Sharma have? 
+ a) Three  b) One   c) two    d) None 
+25. What is the least number of children possible in the entire building? 
+ a) 9   b) 12   c) 15    d) 18 
+ 
+Directions: In each question a main statement is followed by four statements: A, B, c, D.  Choose the ordered 
+pair of statements where the first statement is implies the second, and the two statement s are logically 
+consistent with the main statement. 
+ 
+26. If A is in the room, b exits. 
+ A. A is in the room 
+ B. A is not in the room 
+ C. B is in the room 
+  
+ 
+ 
+16 
+ D. B is not in the room 
+ a) BD   b) DC   c) BC    d) AD 
+ 
+27. Apple taste nice only when they are ripe 
+ A. Apple is ripe 
+ B. Apple is not ripe 
+ C. Apple will taste nice 
+ D. Apple will not taste nice 
+ a) AC   b) BD   c) AD   d) Both a and b 
+28. Opinder either does scanning or typing 
+ A. Opinder does not scan 
+ B. Opinder scans 
+ C. Opinder types 
+ D. Opinder does not types 
+ a) BC   b) AC   c) CD    d) AB 
+29. Either paresh or Ashu is a Zombie 
+ A. Paresh is a Zombie 
+ B. Ashu is a Zombie 
+ C. paresh is not a Zombie 
+ D. Ashu is not a Zombie 
+ a) AC   b) BD   c) AB    d) AD 
+30. All that glitters is gold 
+ A: X glitter 
+ B: X is not gold 
+ C: X is gold 
+ D: X does not glitter 
+a) CA   b) AD   c) BA    d) BD 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+17 
+    INFOSYS APTITUDE TEST -IV    
+ 
+ 
+SECTION-A: MATHEMATICAL AND CRITICAL THINKING (10 QUESTIONS -35MINUTES) 
+Directions for questions 1 to 6: Select the correct alternative form the given choices. 
+1. Ravi was running a race and beats Raja by 10 seconds. Ravi in the same race beats Ramesh by 16 sec. 
+If Raŵesh fiŶished the raĐe iŶ 19ϲ seĐ, Raja fiŶished it iŶ…..  
+a) 199   b) 190   c) 206   d) 212 
+2. There are two empty tanks of equal volume. One tap is fitted to each tank. Both taps are opened 
+simultaneously. One tap fills at 2/7th the rate of the other. If total volume of water filled after one hour 
+is 360 litres, how much time does it take for the tank is filled at a lower rate to be filled with 360 litres 
+of water? 
+a) 6 hours  b0 9 hours  c) 4.5 hours  d) 7.5 hours 
+3. A square is constructed with its side being equal to that of a rhombus of diagonals 20 cm and  48 cm. 
+The square is then compressed along one diagonal such that there is no change in the length of the  
+sides but the diagonal reduces to 13 cm. How many times the side of the square is the secon d 
+diagonal of the rhombus formed? 
+a) 8   b) √ͳ5
+     c) 4   d) √ͳ5 /ʹ    
+4. The ratio of the volumes of kerosene, petrol and diesel is 9:7:4 in one mixt ure and 5:14:11 in another 
+mixture. If fifty litres of the first mixture is mixed with a certain quantity of the second mixture and the 
+new mixture contains 35 litres of kerosene, then what will be the ratio of petrol to diesel in the new 
+mixture? 
+a) 5:7   b) 3:4   c) 4:3   d) 7:5 
+5. A circle is inscribed in a square. If the area of the circle is 616 cm 2, what is the area of the square not 
+occupied by the circle? ሺ =
+22
+7
+ሻ 
+a) 148 cm2  b) 168 cm 2  c) 174 cm2  d) 192 cm 2 
+6. There are five temples with a magical pond in front of them which doubles the nu mber of items in it. 
+Ram goes to the temple with some flowers and dips them in the pond to clean them. He finds that the 
+number of flowers doubled. He places some of them in the first temple and again  dips the remaining 
+flowers in the pond. He repeats this process until he placed flowers in the last  temple. He is left with 
+no flower after placing the f lowers at the fifth temple. He finds that he placed equal number of 
+flowers in all temples. If he initially had less than 50 flowers, how many did he place in each temple? 
+a) 16   b) 24   c) 32   d) 64 
+ 
+ 
+ 
+Questions: 25       Time: 50 minutes  
+All Questions carry one Mark Each 
+  
+ 
+ 
+18 
+ 
+ 
+Directions for questions 7 to 10: These questions are based on the following information. 
+ 
+Each of the three girls shravya, Sruthi and Shyamala has appeared for the Maths, Physics and Ch emistry 
+examinations. The sum of the marks scored in the three subjects by any one girl is 100. Further in each subject 
+the marks of all the three girls put together is 100. They were given ranks 1 to 3  in each subject in the 
+decreasing order of their marks in the subject. The following information is also known abou t their ranks and 
+marks. 
+i) Shravya got equal marks in Maths and Chemistry, which is 4 less than her marks in Physics. 
+ii) Of all the girls, ShǇaŵala’s sĐore of 3ϳ ŵarks iŶ CheŵistrǇ is the highest whiĐ h is ŵore thaŶ the 
+highest in Physics and also the highest in Maths. 
+iii) Sruthi scored more marks in physics than that scored by Shyamala in Maths. 
+iv) Except Shravya, no other girl scored same marks in any two subjects. 
+v) No two girls scored the same marks in any subject. 
+vi) Each girl got a different rank in each of the three subjects. 
+ 
+7. Who got third rank in Maths? 
+a) Shravya  b) Sruthi   c) Shyamala  d) CaŶ’t ďe deterŵiŶed  
+8. What is the highest marks scored in Maths among these three girls? 
+a) 32   b) 33     c) 34   d) 35 
+9. What is the least score of any of the three girls in any of the three subjects? 
+a) 29   b) 30     c) 31   d) 28 
+10. Which of the following statement is true? 
+a) Sruthi scored more marks in Chemistry than the marks scored by Shyamala in Physics. 
+b) Sruthi scored more marks in Chemistry than that scored by Shravya in Maths. 
+c) Shyamala scored more marks in Maths than that scored by Shravya in Physics. 
+d) Shyamala scored more marks in Physics than that scored by Sruthi in Chemistry. 
+ 
+SECTION-B: ANALYTICAL THINKING (15 QUESTIONS-25 MINUTES) 
+Directions: The questions given below have four groups of three statements each. Read the statements in 
+each group carefully and identify the group/groups where the third statement logically follows the first two 
+statements in the group. 
+11. A) All books are copies. All copies are papers. All books are papers. 
+B) All cubes are squares. All cubes are triangles. All triangles are squares. 
+C) All singers are dancers. All dancers are musicians. All musicians are singers. 
+D) No cock is hen. All hens are chickens. No hen is chicken.  
+ a) Only D  b) Only A  c) Only B and C  d) Only A and D 
+12. A) Some journals are magazines. Some magazines are periodic. Some journals are periodic. 
+ B) Some horror is ghost. All ghosts are faints. Some horror faints. 
+ C) All scientists are researchers. All researchers are professors. Some professors are scientists. 
+  
+ 
+ 
+19 
+ D) Many baggages are luggages. All luggages are packages. Some Packages are not baggaages. 
+ a) Only B, C and D b) Only B and C c) Only A and D  d) Only B 
+13. A) Many fountains are cascades. No waterfall is fountain. Some cascades are not waterfalls. 
+ B) No bag is pack. No pack is jack. No jack is bag. 
+ C) No good is bad. All bad is not good. Some good is not bad. 
+ D) Scale is ruler. No ruler is pointer. No pointer is scale. 
+ a) Only A  b) Only D  c) Only A and D  d) Only C and D 
+14. A) No esthetic is an atheist. Some esthetics are monotheists. Some monotheists are not poly theists. 
+ B) All sentences are words. No word does not have meaning. Some which do not h ave meanings are 
+not sentences. 
+ C) No river is sea. Some seas are oceans. Some oceans are not rivers. 
+ D) No MMTS is MRTS. All public transports are MRTS. No public transport is MMTS. 
+ a) Only B, C and D b) Only C and D c) Only A and B  d) Only B and C 
+15.  A) All elephants are wild. All lions are wild. So all lions are elephant 
+ B) All mangoes are red. Some apples are mangoes. So, all apples are red 
+ C) All roads are boxes. All foxes are roads. So, all boxes are foxes 
+ D) All XYZ can run.  All ABC are   XYZ. So, all ABC can run.  
+ a) Only A  b) Only B  c) Only C   d) Only D 
+Directions: The following pie-chart shows the percentage distribution of the expenditure incurred in  
+publishing a book. Study the pie-chart and the answer the questions based on it. 
+Various Expenditures (in percentage) Incurred in Publishing a Book 
+ 
+  
+ 
+16.   If for a certain quantity of books, the publisher has to pay Rs. 30,600 as printing cost, then wha t will be 
+amount of royalty to be paid for these books? 
+                A. Rs. 19,450 B. Rs. 21,200 
+
+  
+ 
+ 
+20 
+                C. Rs. 22,950 D. Rs. 26,150 
+17.  What is the central angle of the sector corresponding to the expenditure incurred on Royalty? 
+                 A. 15º B. 24º 
+                 C. 54º D. 48º 
+18.  The price of the book is marked 20% above the C.P. If the marked price of the book is Rs. 180,           
+ then what is the cost of the paper used in a single copy of the book? 
+               A. Rs. 36 B. Rs. 37.50 
+               C. Rs. 42 D. Rs. 44.25 
+ 
+19.  If 5500 copies are published and the transportation cost on them amounts to Rs. 8250 0, then what 
+      should be the selling price of the book so that the publisher can earn a profit of 25%? 
+               A. Rs. 187.50 B. Rs. 191.50 
+               C. Rs. 175 D. Rs. 180 
+20.  Royalty on the book is less than the printing cost by: 
+                 A. 5% B. 33 1 % 5 
+ 
+                 C. 20% D. 25% 
+ 
+Directions: Each question is followed by two statements A and b giving certain data. Answer each    question 
+using the following instructions. 
+Choose (a): If the question can be answered by using statement A alone but not by using B alone. 
+Choose (b): If the question can be answered by using statement B alone but not by using A alone. 
+Choose (c): If the question can be answered by using either statement alone. 
+Choose (d): If the question can be answered by using both the statements together but no t by either 
+                  statement alone. 
+Choose (e): If the question can be answered by using neither statement A or B alone. 
+21.  How many parking spaces are occupied in a certain parking lot? 
+ A: There are 100 unoccupied parking spaces. 
+ B: If 10 more parking spaces were occupied, 15 percent of the parking spaces would b e 
+                   unoccupied. 
+22. Dinesh bought some kiwifruit and jackfruit for a total of Rs. 150, find the number of kiwis he b ought. 
+ A: When the number of kiwifruits and jackfruit bought are interchanged, the total expenditure of  
+Dinesh becomes Rs. 140. 
+ B: The cost of each kiwifruit is Rs. 17 and that of each jackfruit is Rs.12 
+  
+ 
+ 
+21 
+23. Is Y divisible by 26? 
+ A: when Y is divided by 13, it leaves 6 as the remainder. 
+ B: When Y is divided by 39, it leaves 26 as the remainder.  
+24. Is the greatest of three consecutive integers odd? 
+ A: The product of three integers is 0. 
+ B: The sum of the three integers is 0. 
+25. A teacher wanted to organize a group of students into some teams of seven members for a quiz 
+competition. Will she be able to make six such teams? 
+ A: If five new students join the group, she can make seven such teams, with no students left without 
+being included in the team. 
+ B: If nine students leave, she can make at most five such terms, with no student left. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    
+ 
+  
+ 
+ 
+22 
+ INFOSYS APTITUDE TEST -V    
+ 
+ 
+SECTION-A: MATHEMATICAL AND CRITICAL THINKING (10 QUESTIONS -35MINUTES) 
+ 
+Direction: These questions are based on the following information. 
+ 
+ 
+          P P Q    
+     X  Q R S 
+   ………………    
+         S T U 
+     R R V 
+Q Q R 
+……………… 
+Q W R R U 
+………………. 
+1.  Find the value of P? 
+a) 2  b) 3   c) 4  d) 0 
+2. Find the value of S? 
+a) 5  b) 6   c) 3  d) 8 
+3. Find the alphabet whose value is equal to T+Q. 
+a) W  b) S   c) U  d) V 
+4.  A machine P can print one lakh books in 8 hours, machine Q can print the sam e number of books in           
+ 10 hours while machine R can print them in 12 hours. All the machines are started at 9.00 am , while 
+machine P is closed at 11.00 am and the remaining two machines complete work. Approximately at 
+what time will the work (to print one lakh books) be finished? 
+a) 11.00 am  b) 12.00 pm c) 1.00 pm  d) 2.00pm 
+5. Two containers of milk contain mixtures of water and milk in ratio 5:4 and 7 :9. In what ratio they 
+should be mixed so that mixture is of 6:6 ratios? 
+a) 6:5   b) 7:5   c) 8:9   d. 9:8  
+6. What is the difference between compound interest on Rs.3000 for 2 years at 5% P.a. When in terest is 
+compounded yearly and compound interest on the same sum and same terms except that i t is 
+compounded half yearly? 
+Questions: 25       Time: 50 minutes  
+All Questions carry one Mark Each 
+  
+ 
+ 
+23 
+ a)   Rs.3.93   b)   Rs.30 c) Rs.15.3  d) Rs.41.28 
+7.  If Thursday was the day after the day before yesterday five days ago, what is the least number of days 
+ago when Sunday was three days before the day after tomorrow? 
+a) Five days ago  b) Two days ago     c) Four days ago d)Three days ago. 
+ 
+Directions: These questions are based on the following information. 
+ 
+i) P,Q,R,S,T and U are travelling in a bus.  
+ii) There are two reporters, two technicians, one photographer and one writer in the group.  
+iii) The photographer P is married to S who is a reporter.  
+iv) The writer is married to Q who is of the same profession as that of U.  
+v) P,R,Q,S are two married couples and nobody in the group has same profession.  
+vi) U is brother of R 
+8.  How is R related to U?  
+a)     Brother    b) Sister    c)   Mother      d)Uncle     e) Brother  
+9.  Which of the following is a pair of reporters?  
+  a)  ST      b)    PQ     c)   RT     d)     SU    e) Can't be definitely said  
+10.  Which of the following is a pair of husband?  
+   a)   PR     b)    QS     c)    PQ     d)    QR    e)    P R  
+ 
+ 
+SECTION-B: ANALYTICAL THINKING (15 QUESTIONS-25 MINUTES) 
+Directions: Two statements are followed by four conclusions numbered I, II, III, IV. Take the first t wo 
+statements to be true even if they are at variance with commonly – known facts. The statements are followed 
+by conclusions which are themselves followed by answer – choices. Mark the answer –choice which correctly 
+points out which of the conclusion follow. 
+1. Statements:  1.All green are blue  2.All blue are white 
+Conclusions: I) some blue are green. 
+          II) Some white are green. 
+          III) Some green are white. 
+          IV) All white are blue. 
+a) Only I and II follow b) Only II and III follow   c)Only I and III follow d) Only I and IV follow 
+ 
+2. Statements: 1) Some boxes are cars 2) Some cars roads 
+Conclusions:  I) some roads are boxes 
+  II) Some cars are boxes 
+  III) No box is a road 
+  IV) Some roads are cars. 
+a) Only II and III follow b) Only I and IV follow    c)Only either III or Iv , and I and II follow 
+  
+ 
+ 
+24 
+d) Only II and IV follow e ) None of these 
+3. Statements: 1) No fruit is a tree 2) All trees are stones 
+Conclusions: I) No stone is a fruit 
+  II) No tree is a fruit 
+  III) Some stones are trees 
+  IV) Some stones are fruits 
+c) Only II and III follow b) Either I or IV and II follow  c)Either I or III and IV follow 
+d) d) Only I and III follow 
+4. Statements: 1) All cups are plates 2) All plates are tables 
+Conclusions: I) All cups are tables 
+  II) All tables are cups 
+  III) Some tables are cups 
+  IV)  Some tables are plates 
+a)All follow b) Only I,III and IV follow c)Only II,III and IV follow  d) Only I and IV follow 
+ 
+5. Statements: 1) All cats are dogs 2) All dogs are horses  3) All horses are donkeys 
+Conclusions: I) Some dogs are cats  
+   II) Some horses are not dogs 
+   III) All cats are donkeys 
+   IV) Some donkeys are cats 
+a)Only I and II follow b) Only II and IV follow  c)All of these follows d) None of these foll ows 
+6. If the word TRADE is coded as XVEHI, then how the word PUBLIC should be coded? 
+ a) TYFMPG  b) TYFPMG  c) SXLLOP  d) SXEOLF 
+7.  In a certain code PORTUGESE   is written as ESEGUTROP, then MALAYALAM will be written in the same 
+code as: 
+ a) MALAYALAM  b) MALAYALAM  c) MALAYALM  d) MALAYLAM 
+8. BXJ, ETL, HPN, KLP,  ? 
+ a) PHR   b) NIR   c) NHR   d) MHR 
+9. 37, 47, 58, ? , 79, 95 
+ a) 69   b) 68   c) 67   d) 71 
+ 
+10. 99 : 79 ::  24 : ? 
+a) 1   b) 13   c) 9   d) 9 
+  
+ 
+ 
+25 
+ 
+ 
+ 
+ 
+Directions (11- 15): Out of the five figures 1,2,3,4 and 5 four are similar in a certain way and thus fo rm a 
+group. However one figure is not like the other four. Choose the figure which is different from others.  
+ 
+11.          
+  
+         a)1    b)2     c)3  d)4  d)5     
+12.   
+  a)1    b)2     c)3  d)4  d)5     
+13.   
+  a)1    b)2     c)3  d)4  d)5     
+14.   
+  a)1    b)2     c)3  d)4  d)5    
+15.   
+  a)1    b)2     c)3  d)4  d)5

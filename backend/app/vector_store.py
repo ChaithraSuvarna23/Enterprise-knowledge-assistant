@@ -30,7 +30,7 @@ def store_chunks(chunks: list[str], source: str):
     )
     
 
-def search_chunks(query: str, top_k: int = 5):
+def search_chunks(query: str, top_k: int = 3):
     """
     Search for relevant document chunks using semantic similarity.
     """
@@ -38,7 +38,9 @@ def search_chunks(query: str, top_k: int = 5):
 
     results = collection.query(
         query_embeddings=query_embedding,
-        n_results=top_k
+        n_results=top_k,
+        include=["documents", "metadatas", "distances"]
+
     )
 
     return results
