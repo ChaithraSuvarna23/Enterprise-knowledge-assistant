@@ -1,18 +1,5 @@
 from pypdf import PdfReader
-
-def extract_text_from_pdf(file_path: str) -> str:
-    """
-    Extract text from a PDF file.
-    """
-    reader = PdfReader(file_path)
-    text = ""
-
-    for page in reader.pages:
-        page_text = page.extract_text()
-        if page_text:
-            text += page_text + "\n"
-
-    return text.strip()
+import pdfplumber
 
 
 def extract_text_from_txt(file_path: str) -> str:
@@ -23,23 +10,35 @@ def extract_text_from_txt(file_path: str) -> str:
         return f.read().strip()
 
 
-def chunk_text(
-    text: str,
-    chunk_size: int = 800,
-    overlap: int = 150
-) -> list[str]:
-    """
-    Split text into overlapping chunks.
-    """
+def chunk_text(pages, chunk_size=500, overlap=50):
     chunks = []
-    start = 0
-    text_length = len(text)
+    for page in pages:
+        words = page["text"].split()
+        start = 0
 
-    while start < text_length:
-        end = start + chunk_size
-        chunk = text[start:end]
-        chunks.append(chunk.strip())
+        while start < len(words):
+            end = start + chunk_size
+            chunk_text = " ".join(words[start:end])
 
-        start = end - overlap  # overlap to preserve context
+            chunks.append({
+                "text": chunk_text,
+                "page": page["page"]
+            })
+
+            start += chunk_size - overlap
 
     return chunks
+
+
+
+def extract_pages_from_pdf(file_path: str):
+    pages = []
+    with pdfplumber.open(file_path) as pdf:
+        for page_num, page in enumerate(pdf.pages, start=1):
+            text = page.extract_text()
+            if text:
+                pages.append({
+                    "page": page_num,
+                    "text": text
+                })
+    return pages
