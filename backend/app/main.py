@@ -13,6 +13,7 @@ from app.utils import extract_pages_from_pdf, extract_text_from_txt,chunk_text
 from app.vector_store import store_chunks, search_chunks
 from app.context_builder import build_context
 from app.reranker import rerank_chunks
+from app.answerability import is_answerable
 
 
 app = FastAPI(
@@ -93,6 +94,7 @@ def upload_document(file: UploadFile = File(...)):
 
 
 
+
 @app.post("/query")
 def query_knowledge_base(question: str):
     question = question.strip()
@@ -110,41 +112,30 @@ def query_knowledge_base(question: str):
             "sources": []
         }
 
-    # 1️⃣ Initial semantic ranking
     ranked = sorted(
         zip(documents, metadatas, distances),
         key=lambda x: x[2]
     )
 
-    # 2️⃣ Take top-N semantic candidates
-    top_docs = [r[0] for r in ranked[:5]]
-    top_metas = [r[1] for r in ranked[:5]]
-    top_dists = [r[2] for r in ranked[:5]]
+    # select top 2 candidates
+    candidate_chunks = [ranked[0][0]]
+    if len(ranked) > 1 and ranked[1][2] - ranked[0][2] < 0.15:
+        candidate_chunks.append(ranked[1][0])
 
-    # 3️⃣ RERANK (keyword-based)
-    reranked = rerank_chunks(
-        top_docs,
-        top_metas,
-        top_dists,
-        question
-    )
-
-    # 4️⃣ SAFE UNPACK (NOW MATCHES)
-    best_score, best_doc, best_meta, best_dist = reranked[0]
-
-    # 5️⃣ Absolute relevance guard
-    if best_dist > 1.4:
+    # 🚨 ANSWERABILITY CHECK (NEW)
+    if not is_answerable(candidate_chunks, question):
         return {
             "question": question,
             "answer": "This information is not available in the documents.",
             "sources": []
         }
 
-    # 6️⃣ Context builder
-    context = build_context([best_doc], max_tokens=1200)
-
+    context = build_context(candidate_chunks, max_tokens=1200)
     answer = generate_answer(question, [context])
-    
+
+    best_meta = ranked[0][1]
+    best_dist = ranked[0][2]
+
     return {
         "question": question,
         "answer": answer,
@@ -157,9 +148,6 @@ def query_knowledge_base(question: str):
             }
         ]
     }
-
-
-
 
 
 @app.post("/query/retrieve-only")
