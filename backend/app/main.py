@@ -14,6 +14,7 @@ from app.vector_store import store_chunks, search_chunks
 from app.context_builder import build_context
 from app.reranker import rerank_chunks
 from app.answerability import is_answerable
+from app.memory import get_chat_history, append_message
 
 
 app = FastAPI(
@@ -96,11 +97,12 @@ def upload_document(file: UploadFile = File(...)):
 
 
 @app.post("/query")
-def query_knowledge_base(question: str):
+def query_knowledge_base(question: str, session_id: str = Query(...)):
     question = question.strip()
 
-    results = search_chunks(question)
+    chat_history = get_chat_history(session_id)
 
+    results = search_chunks(question)
     documents = results.get("documents", [[]])[0]
     metadatas = results.get("metadatas", [[]])[0]
     distances = results.get("distances", [[]])[0]
