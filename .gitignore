@@ -1,4 +1,18 @@
-.env
-backend/.env
+# Virtual environment
 venv/
+
+# Environment variables
+.env
+
+# Python cache
 __pycache__/
+*.pyc
+
+# Vector databases
+backend/data/vectordb/
+*.sqlite3
+*.bin
+
+# Uploaded & extracted data (runtime)
+backend/data/uploads/
+backend/data/extracted/

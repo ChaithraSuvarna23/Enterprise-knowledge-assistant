@@ -97,43 +97,71 @@ def upload_document(file: UploadFile = File(...)):
 
 
 @app.post("/query")
-def query_knowledge_base(question: str, session_id: str = Query(...)):
+def query_knowledge_base(
+    question: str,
+    session_id: str = Query(...)
+):
     question = question.strip()
 
+    # 1️⃣ Load previous chat history
     chat_history = get_chat_history(session_id)
 
+    # 2️⃣ Save user message
+    append_message(session_id, "user", question)
+
+    # 3️⃣ Semantic search
     results = search_chunks(question)
     documents = results.get("documents", [[]])[0]
     metadatas = results.get("metadatas", [[]])[0]
     distances = results.get("distances", [[]])[0]
 
     if not documents:
+        answer = "No relevant information found in the documents."
+        append_message(session_id, "assistant", answer)
         return {
             "question": question,
-            "answer": "No relevant information found in the documents.",
+            "answer": answer,
             "sources": []
         }
 
+    # 4️⃣ Rank by distance
     ranked = sorted(
         zip(documents, metadatas, distances),
         key=lambda x: x[2]
     )
 
-    # select top 2 candidates
+    # 5️⃣ Select candidate chunks
     candidate_chunks = [ranked[0][0]]
     if len(ranked) > 1 and ranked[1][2] - ranked[0][2] < 0.15:
         candidate_chunks.append(ranked[1][0])
 
-    # 🚨 ANSWERABILITY CHECK (NEW)
+    # 6️⃣ Answerability guard
     if not is_answerable(candidate_chunks, question):
+        answer = "This information is not available in the documents."
+        append_message(session_id, "assistant", answer)
         return {
             "question": question,
-            "answer": "This information is not available in the documents.",
+            "answer": answer,
             "sources": []
         }
 
-    context = build_context(candidate_chunks, max_tokens=1200)
-    answer = generate_answer(question, [context])
+    # 7️⃣ Build conversational context
+    conversational_context = []
+
+    for msg in chat_history:
+        conversational_context.append(
+            f"{msg['role'].capitalize()}: {msg['content']}"
+        )
+
+    doc_context = build_context(candidate_chunks, max_tokens=1000)
+
+    full_context = "\n".join(conversational_context + [doc_context])
+
+    # 8️⃣ Generate answer
+    answer = generate_answer(question, [full_context])
+
+    # 9️⃣ Save assistant reply
+    append_message(session_id, "assistant", answer)
 
     best_meta = ranked[0][1]
     best_dist = ranked[0][2]
@@ -150,6 +178,7 @@ def query_knowledge_base(question: str, session_id: str = Query(...)):
             }
         ]
     }
+
 
 
 @app.post("/query/retrieve-only")
