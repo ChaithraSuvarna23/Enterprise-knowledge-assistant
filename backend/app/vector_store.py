@@ -47,7 +47,7 @@ def store_chunks(chunks: list[dict], source: str):
 
 def search_chunks(
     query: str,
-    top_k: int = 5,
+    top_k: int = 8,
     min_distance: float = 1.1
 ):
     query_embedding = embedding_model.encode([query]).tolist()

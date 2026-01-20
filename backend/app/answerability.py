@@ -13,6 +13,12 @@ def extract_keywords(question: str) -> list[str]:
 
 
 def is_answerable(chunks: list[str], question: str) -> bool:
+    q = question.lower().strip()
+
+    # ✅ Allow section-style questions
+    if len(q.split()) <= 4:
+        return True
+
     keywords = extract_keywords(question)
 
     hits = 0

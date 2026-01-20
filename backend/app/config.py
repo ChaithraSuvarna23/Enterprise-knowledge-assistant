@@ -18,5 +18,5 @@ VECTOR_DB_DIR.mkdir(parents=True, exist_ok=True)
 CHUNK_SIZE = 400
 CHUNK_OVERLAP = 80
 
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-OPENAI_MODEL = "gpt-4o-mini"
+API_KEY = os.getenv("GROQ_API_KEYY")
+GROQ_MODEL = "llama-3.1-8b-instant"
