@@ -5,7 +5,7 @@ import uuid
 from app.llm import generate_answer
 from app.evaluation import precision_at_k, average_distance,recall
 from fastapi import Query
-
+from fastapi.middleware.cors import CORSMiddleware
 
 
 from app.config import UPLOAD_DIR, EXTRACTED_DIR
@@ -21,6 +21,17 @@ app = FastAPI(
     title="Enterprise Knowledge Assistant",
     description="RAG-based backend for querying enterprise documents",
     version="0.1.0"
+)
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "http://localhost:5173",  # Vite + React
+        "http://localhost:3000",  # (optional)
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
 )
 
 @app.get("/health")
