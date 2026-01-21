@@ -48,7 +48,6 @@ def store_chunks(chunks: list[dict], source: str):
 def search_chunks(
     query: str,
     top_k: int = 8,
-    min_distance: float = 1.1
 ):
     query_embedding = embedding_model.encode([query]).tolist()
 
@@ -63,11 +62,8 @@ def search_chunks(
     dists = results["distances"][0]
 
     # 🔹 FILTER weak matches
-    filtered = [
-        (d, m, dist)
-        for d, m, dist in zip(docs, metas, dists)
-        if dist <= min_distance
-    ]
+    filtered = list(zip(docs, metas, dists))
+
 
     if not filtered:
         return {

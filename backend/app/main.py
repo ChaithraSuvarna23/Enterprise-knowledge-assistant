@@ -14,7 +14,7 @@ from app.utils import (
 from app.vector_store import store_chunks, search_chunks
 from app.reranker import rerank_chunks
 from app.context_builder import build_context
-from app.answerability import is_answerable
+
 from app.llm import generate_answer
 from app.memory import get_chat_history, append_message
 
@@ -86,8 +86,8 @@ def query_knowledge_base(
     question: str,
     session_id: str = Query(...)
 ):
-    question = question.strip()
-
+    question = question.lower().strip()
+    
     # 1️⃣ Load chat history (for memory only, NOT context)
     chat_history = get_chat_history(session_id)
 
@@ -127,17 +127,6 @@ def query_knowledge_base(
     else:
         candidate_chunks = [c[1] for c in reranked[:3]]
 
-    
-
-    # 5️⃣ Answerability guard
-    if not is_answerable(candidate_chunks, question):
-        answer = "This information is not available in the documents."
-        append_message(session_id, "assistant", answer)
-        return {
-            "question": question,
-            "answer": answer,
-            "sources": [],
-        }
 
     # 6️⃣ Build DOCUMENT‑ONLY context (CRITICAL)
     context = build_context(candidate_chunks, max_tokens=1400)
