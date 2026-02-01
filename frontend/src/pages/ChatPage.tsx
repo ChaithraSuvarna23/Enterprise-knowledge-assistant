@@ -14,6 +14,12 @@ import type { ChatMessage } from "../types/chat";
 const QUERY_API = "http://localhost:8000/query";
 const UPLOAD_API = "http://localhost:8000/upload";
 
+// ✅ JWT helper (NO TS ERRORS)
+function getAuthHeaders(): Record<string, string> {
+  const token = localStorage.getItem("access_token");
+  return token ? { Authorization: `Bearer ${token}` } : {};
+}
+
 export default function ChatPage() {
   const [messages, setMessages] = useState<ChatMessage[]>([]);
   const [input, setInput] = useState("");
@@ -23,7 +29,7 @@ export default function ChatPage() {
   const bottomRef = useRef<HTMLDivElement | null>(null);
   const fileInputRef = useRef<HTMLInputElement | null>(null);
 
-  // session id (persisted)
+  // ✅ persistent session id
   const sessionId =
     localStorage.getItem("session_id") ??
     (() => {
@@ -32,12 +38,11 @@ export default function ChatPage() {
       return id;
     })();
 
-  // 🔽 Auto-scroll to latest message
   useEffect(() => {
     bottomRef.current?.scrollIntoView({ behavior: "smooth" });
   }, [messages, loading]);
 
-  // ---------------- SEND MESSAGE ----------------
+  // ================= SEND MESSAGE =================
   const sendMessage = async () => {
     if (!input.trim() || loading) return;
 
@@ -55,28 +60,39 @@ export default function ChatPage() {
         `${QUERY_API}?question=${encodeURIComponent(
           userMessage.content
         )}&session_id=${sessionId}`,
-        { method: "POST" }
+        {
+          method: "POST",
+          headers: {
+            ...getAuthHeaders(), // ✅ JWT
+          },
+        }
       );
+
+      if (res.status === 401) {
+        alert("Session expired. Please login again.");
+        return;
+      }
 
       const data = await res.json();
 
-      const assistantMessage: ChatMessage = {
-        role: "assistant",
-        content: data.answer ?? "No response",
-      };
-
-      setMessages((prev) => [...prev, assistantMessage]);
+      setMessages((prev) => [
+        ...prev,
+        {
+          role: "assistant",
+          content: data.answer ?? "No response",
+        },
+      ]);
     } catch {
       setMessages((prev) => [
         ...prev,
-        { role: "assistant", content: "❌ Error contacting server." },
+        { role: "assistant", content: "❌ Server error" },
       ]);
     } finally {
       setLoading(false);
     }
   };
 
-  // ---------------- UPLOAD FILE ----------------
+  // ================= UPLOAD FILE =================
   const uploadFile = async (file: File) => {
     const formData = new FormData();
     formData.append("file", file);
@@ -86,6 +102,9 @@ export default function ChatPage() {
     try {
       await fetch(UPLOAD_API, {
         method: "POST",
+        headers: {
+          ...getAuthHeaders(), // ✅ JWT
+        },
         body: formData,
       });
 
@@ -93,64 +112,37 @@ export default function ChatPage() {
         ...prev,
         {
           role: "assistant",
-          content: `✅ "${file.name}" uploaded and indexed successfully.`,
+          content: `✅ "${file.name}" uploaded successfully.`,
         },
       ]);
     } catch {
       setMessages((prev) => [
         ...prev,
-        {
-          role: "assistant",
-          content: "❌ File upload failed.",
-        },
+        { role: "assistant", content: "❌ Upload failed." },
       ]);
     } finally {
       setUploading(false);
     }
   };
 
-  // ⌨️ Enter-to-send (Shift+Enter = newline)
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === "Enter" && !e.shiftKey) {
-      e.preventDefault();
-      sendMessage();
-    }
-  };
-
   return (
-    // ---------- OUTER CENTERING ----------
-    <Box
-      sx={{
-        height: "100vh",
-        bgcolor: "#f5f5f5",
-        display: "flex",
-        justifyContent: "center",
-      }}
-    >
-      {/* ---------- CHAT CONTAINER ---------- */}
-      <Box
-        sx={{
-          width: "100%",
-          maxWidth: "900px",
-          display: "flex",
-          flexDirection: "column",
-        }}
-      >
-        {/* ---------- HEADER ---------- */}
+    <Box height="100vh" display="flex" justifyContent="center" bgcolor="#f5f5f5">
+      <Box width="100%" maxWidth="900px" display="flex" flexDirection="column">
+        {/* Header */}
         <Box
           p={2}
           bgcolor="primary.main"
           display="flex"
-          alignItems="center"
           justifyContent="space-between"
+          alignItems="center"
         >
           <Typography color="white" variant="h6">
             Enterprise Knowledge Assistant
           </Typography>
 
           <Button
-            variant="outlined"
             color="inherit"
+            variant="outlined"
             disabled={uploading}
             onClick={() => fileInputRef.current?.click()}
           >
@@ -158,7 +150,7 @@ export default function ChatPage() {
           </Button>
         </Box>
 
-        {/* hidden file input */}
+        {/* Hidden file input */}
         <input
           ref={fileInputRef}
           type="file"
@@ -172,50 +164,30 @@ export default function ChatPage() {
           }}
         />
 
-        {/* ---------- MESSAGES ---------- */}
+        {/* Messages */}
         <Box flex={1} p={2} overflow="auto">
           <Stack spacing={2}>
-            {messages.map((msg, idx) => (
+            {messages.map((msg, i) => (
               <Box
-                key={idx}
+                key={i}
                 display="flex"
                 justifyContent={
                   msg.role === "user" ? "flex-end" : "flex-start"
                 }
               >
-                <Paper
-                  sx={{
-                    p: 1.5,
-                    maxWidth: "70%",
-                    bgcolor:
-                      msg.role === "user"
-                        ? "primary.main"
-                        : "grey.300",
-                    color: msg.role === "user" ? "white" : "black",
-                  }}
-                >
-                  <Typography variant="body1">
-                    {msg.content}
-                  </Typography>
+                <Paper sx={{ p: 1.5, maxWidth: "70%" }}>
+                  {msg.content}
                 </Paper>
               </Box>
             ))}
 
-            {/* 🤔 Loading indicator */}
-            {loading && (
-              <Box display="flex" alignItems="center" gap={1}>
-                <CircularProgress size={16} />
-                <Typography variant="body2">
-                  Assistant is thinking…
-                </Typography>
-              </Box>
-            )}
+            {loading && <CircularProgress size={16} />}
 
             <div ref={bottomRef} />
           </Stack>
         </Box>
 
-        {/* ---------- INPUT ---------- */}
+        {/* Input */}
         <Box p={2} bgcolor="white">
           <Stack direction="row" spacing={2}>
             <TextField
@@ -225,7 +197,12 @@ export default function ChatPage() {
               placeholder="Ask a question…"
               value={input}
               onChange={(e) => setInput(e.target.value)}
-              onKeyDown={handleKeyDown}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" && !e.shiftKey) {
+                  e.preventDefault();
+                  sendMessage();
+                }
+              }}
               disabled={loading}
             />
             <Button

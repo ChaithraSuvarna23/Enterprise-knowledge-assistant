@@ -1,8 +1,10 @@
-from fastapi import FastAPI, UploadFile, File, HTTPException, Query
+from fastapi import FastAPI, UploadFile, File, HTTPException, Query,Depends
 from fastapi.middleware.cors import CORSMiddleware
 from pathlib import Path
 import shutil
 import uuid
+from app.dependencies import get_current_user
+import logging
 
 # ---------- Internal imports ----------
 from app.config import UPLOAD_DIR
@@ -39,11 +41,25 @@ app.add_middleware(
 def health_check():
     return {"status": "ok"}
 
+
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
+
+@app.post("/login")
+def login(username: str):
+    logger.info(f"LOGIN ATTEMPT: username={username}")
+
+    token = get_current_user({"user_id": username})
+
+    logger.info("TOKEN CREATED SUCCESSFULLY")
+
+    return {"access_token": token}
+
 # ============================================================
 # 📤 UPLOAD ENDPOINT
 # ============================================================
 @app.post("/upload")
-def upload_document(file: UploadFile = File(...)):
+def upload_document(file: UploadFile = File(...),user=Depends(get_current_user)):
     ext = Path(file.filename).suffix.lower()
 
     if ext not in [".pdf", ".txt"]:
@@ -84,15 +100,17 @@ def upload_document(file: UploadFile = File(...)):
 @app.post("/query")
 def query_knowledge_base(
     question: str,
-    session_id: str = Query(...)
+    session_id: str = Query(...),
+    user=Depends(get_current_user)
 ):
     question = question.lower().strip()
+    user_id = user["user_id"]
     
-    # 1️⃣ Load chat history (for memory only, NOT context)
-    chat_history = get_chat_history(session_id)
+    # Combine user + session
+    full_session_id = f"{user_id}:{session_id}"
 
-    # 2️⃣ Save user message
-    append_message(session_id, "user", question)
+    chat_history = get_chat_history(full_session_id)
+    append_message(full_session_id, "user", question)
 
     # 3️⃣ Vector search (higher recall)
     results = search_chunks(question, top_k=12)

@@ -18,5 +18,5 @@ VECTOR_DB_DIR.mkdir(parents=True, exist_ok=True)
 CHUNK_SIZE = 400
 CHUNK_OVERLAP = 80
 
-API_KEY = os.getenv("GROQ_API_KEYY")
+API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_MODEL = "llama-3.1-8b-instant"

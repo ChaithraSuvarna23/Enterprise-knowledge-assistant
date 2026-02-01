@@ -1,27 +1,25 @@
-import { Box, Container } from "@mui/material";
+import { Routes, Route, Navigate } from "react-router-dom";
 import ChatPage from "./pages/ChatPage";
+import LoginPage from "./pages/LoginPage";
+
+function isAuthenticated() {
+  return Boolean(localStorage.getItem("access_token"));
+}
 
 export default function App() {
   return (
-    <Box
-      sx={{
-        height: "100vh",
-        bgcolor: "#1e1e1e",
-        display: "flex",
-      }}
-    >
-      <Container
-        maxWidth="md"
-        sx={{
-          height: "100%",
-          display: "flex",
-          flexDirection: "column",
-          bgcolor: "#121212",
-          p: 0,
-        }}
-      >
-        <ChatPage />
-      </Container>
-    </Box>
+    <Routes>
+      <Route path="/login" element={<LoginPage />} />
+
+      <Route
+        path="/chat"
+        element={
+          isAuthenticated() ? <ChatPage /> : <Navigate to="/login" replace />
+        }
+      />
+
+      {/* default */}
+      <Route path="*" element={<Navigate to="/login" replace />} />
+    </Routes>
   );
 }
