@@ -1,9 +1,11 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import ChatPage from "./pages/ChatPage";
 import LoginPage from "./pages/LoginPage";
+import type { JSX } from "react/jsx-runtime";
 
-function isAuthenticated() {
-  return Boolean(localStorage.getItem("access_token"));
+function ProtectedRoute({ children }: { children: JSX.Element }) {
+  const token = localStorage.getItem("access_token");
+  return token ? children : <Navigate to="/login" replace />;
 }
 
 export default function App() {
@@ -14,7 +16,9 @@ export default function App() {
       <Route
         path="/chat"
         element={
-          isAuthenticated() ? <ChatPage /> : <Navigate to="/login" replace />
+          <ProtectedRoute>
+            <ChatPage />
+          </ProtectedRoute>
         }
       />
 
